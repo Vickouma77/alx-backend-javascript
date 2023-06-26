@@ -5,9 +5,8 @@ Welcome to the ALX Backend JavaScript project! This repository contains the sour
 ALX Backend JavaScript is a project developed as part of the ALX Software Engineering Program. The goal of this project is to provide a comprehensive backend solution using JavaScript and its related technologies.
 
 ## Table of Contents
-1 
-
-
+1. [0x00-ES6_basic](https://github.com/Vickouma77/alx-backend-javascript/tree/main/0x00-ES6_basic)
+ 
 
 ## Project Overview
 
