@@ -1,6 +1,6 @@
 export default function getResponseFromAPI() {
+  /* eslint-disable no-constant-condition */
   return new Promise((resolve, reject) => {
-    /* eslint-disable no-constant-condition */
     if (true) {
       resolve();
     }
