@@ -31,4 +31,8 @@ export default class Currency { /* eslint-disable */
             throw new TypeError('Name must be a string')
         }
     }
+
+    displayFullCurrency() {
+        return `${this._name} (${this._code})`
+    };
 }
