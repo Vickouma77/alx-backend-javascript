@@ -1,5 +1,5 @@
-/*eslint-disable*/
 export default class Pricing {
+    /* eslint-disable */
     constructor(amount, currency) {
         if (typeof amount !== 'number') {
             throw new TypeError('Amount must be a number')
