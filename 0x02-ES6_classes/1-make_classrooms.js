@@ -8,5 +8,3 @@ export default function initializeRooms() {
   ];
   return (rooms);
 }
-
-console.log(initializeRooms());
