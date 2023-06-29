@@ -1,4 +1,4 @@
-export default class Car {
+export default class Car {/*eslint-disable */
   constructor(brand, motor, color) {
     this._brand = brand;
     this._motor = motor;
