@@ -1,5 +1,3 @@
-import Currency from './3-currency';
-
 export default class Pricing {/* eslint-disable */
     constructor(amount, currency) {
         if (typeof amount !== 'number') {
