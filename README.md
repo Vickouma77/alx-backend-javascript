@@ -12,4 +12,4 @@ ALX Backend JavaScript is a project developed as part of the ALX Software Engine
 
 ## Project Overview
 
-The ALX Backend JavaScript project aims to demonstrate best practices and techniques for building scalable and maintainable backend applications using JavaScript. It leverages popular frameworks and libraries such as Express.js, Node.js, and MongoDB.
+The ALX Backend JavaScript project aims to demonstrate best practices and techniques for building scalable and maintainable backend applications using JavaScript. It leverages popular frameworks and libraries such as Express.js, Node.js
