@@ -1,11 +1,11 @@
-const cleanSet = (set, start) => {
-  const newSet = new Set();
-  set.forEach((value) => {
-    if (value.startsWith(start) && start !== '') {
-      newSet.add(value.slice(start.length));
-    }
-  });
-  return Array.from(newSet).join('-');
+const cleanSet = (set, startString) => {
+  if (startString === undefined || startString.length === 0) {
+    return '';
+  }
+  return [...set]
+    .filter((value) => (value !== undefined ? value.startsWith(startString) : ''))
+    .map((value) => (value !== undefined ? value.slice(startString.length) : ''))
+    .join('-');
 };
 
 export default cleanSet;
