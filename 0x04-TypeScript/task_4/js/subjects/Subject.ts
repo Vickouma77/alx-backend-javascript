@@ -10,5 +10,3 @@ namespace Subjects {
       
     }
   }
-
-// Path: 0x04-TypeScript/task_4/js/subjects/Cpp.ts
