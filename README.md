@@ -8,7 +8,8 @@ ALX Backend JavaScript is a project developed as part of the ALX Software Engine
 1. [0x00-ES6_basic](https://github.com/Vickouma77/alx-backend-javascript/tree/main/0x00-ES6_basic)
 2. [0x01-ES6_promise](https://github.com/Vickouma77/alx-backend-javascript/tree/main/0x01-ES6_promise)
 3. [0x02-ES6_classes](https://github.com/Vickouma77/alx-backend-javascript/tree/main/0x02-ES6_classes)
-4. [0x03-ES6_data_manipulation](https://github.com/Vickouma77/alx-backend-javascript/tree/main/0x03-ES6_data_manipulation) 
+4. [0x03-ES6_data_manipulation](https://github.com/Vickouma77/alx-backend-javascript/tree/main/0x03-ES6_data_manipulation)
+5. [0x04-TypeScript ](https://github.com/Vickouma77/alx-backend-javascript/tree/main/0x04-TypeScript) 
 
 ## Project Overview
 
