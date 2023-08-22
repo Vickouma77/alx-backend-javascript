@@ -1,15 +1,27 @@
 #!/usr/bin/node
-const http = require('http');
-const fs = require('fs');
+const { readFile } = require('fs');
 
-function readDatabase(fileName) {
+module.exports = function readDatabase(filePath) {
+    const students = {};
     return new Promise((resolve, reject) => {
-        fs.readFile(fileName, 'utf-8', (error, data) => {
-        if (error) {
-            reject(Error('Cannot load the database'));
+      readFile(filePath, (err, data) => {
+        if (err) {
+          reject(err);
         } else {
-            resolve(data.toString().split('\n'));
+          const lines = data.toString().split('\n');
+          const noHeader = lines.slice(1);
+          for (let i = 0; i < noHeader.length; i += 1) {
+            if (noHeader[i]) {
+              const field = noHeader[i].toString().split(',');
+              if (Object.prototype.hasOwnProperty.call(students, field[3])) {
+                students[field[3]].push(field[0]);
+              } else {
+                students[field[3]] = [field[0]];
+              }
+            }
+          }
+          resolve(students);
         }
-        });
+      });
     });
-}
+  };
