@@ -1,10 +1,9 @@
 #!/usr/bin/node
 const readline = require('readline');
 
-//create an interface to read from stdin and write to stdout
+//create an interface to read from stdin
 const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout
 });
 
 //print a message
