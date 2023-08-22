@@ -50,11 +50,11 @@ app.get('/', (req, res) => {
   res.send('Hello Holberton School!');
 });
 
-app.get('/students', (req, res) => {
+app.get('/students', (request, response) => {
   countStudents(process.argv[2].toString()).then((output) => {
-    res.send(`This is the list of our students\n${output}`);
-  }).catch((error) => {
-    res.send(error.message);
+    response.send(['This is the list of our students', output].join('\n'));
+  }).catch(() => {
+    response.send('This is the list of our students\nCannot load the database');
   });
 });
 
