@@ -12,3 +12,5 @@ app.get('/students/:major', StudentsController.getAllStudentsByMajor);
 
 app.listen(port, () => {
 });
+
+module.exports = app;
