@@ -1,5 +1,5 @@
 # 0x06-unittests_in_js
-```UnitTest``` ```Back-end``` ```JavaScript``` ```ES6``` ```NodeJS``` ````ExpressJS``` ```Mocha``` ```Chai```
+```UnitTest``` ```Back-end``` ```JavaScript``` ```ES6``` ```NodeJS``` ```ExpressJS``` ```Mocha``` ```Chai```
 
 ## Learning Objectives
 * How to use Mocha to write a test suite
