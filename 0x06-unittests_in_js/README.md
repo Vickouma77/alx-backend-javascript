@@ -12,3 +12,8 @@
 * How to write integration tests with a small HTTP server
 
 ## Tasks
+| File | Test File | Description |
+| ------ | ------ | ------ |
+| 0-calcul.js | tests/0-calcul.test.js | Write a test with ```Mocha``` for the function ```calculateNumber``` ```(a, b)``` |
+| 1-calcul.js | tests/1-calcul.test.js | Write a test with ```Mocha```  for the function ```calculateNumber``` ```(type, a, b)``` |
+| 2-calcul.js | tests/2-calcul.test.js | Write a test with ```Mocha``` and ```chai``` for the function ```calculateNumber``` ```(type, a, b)``` |
